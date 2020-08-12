@@ -12,7 +12,10 @@ const myStyle = {
     paddingRight : "3vw" ,
     height : "8vh",
     alignItems : "center",
-    justifyContent : "space-between"
+    justifyContent : "space-between",
+    position : "sticky" ,
+    top : "0" ,
+    zIndex : "20"
 }
 
 function Navbar() {

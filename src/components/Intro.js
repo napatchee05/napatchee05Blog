@@ -9,13 +9,15 @@ function Intro() {
         backgroundColor : "black" ,
         marginLeft : "5%" , 
         marginRight : "5%" ,
+        marginBottom : "1%" ,
         color : "white" ,
         textAlign : "center" ,
-        padding : "0.2%"
+        padding : "0.2%",
+        paddingBottom : "10px"
     }
 
     return (
-        <Fade opposite >
+        <Fade opposite>
             <Slide top opposite>
                 <div style={introstyle}>
                     <h1>Napat Cheetanom , Full time Sleeper</h1>
@@ -24,9 +26,6 @@ function Intro() {
                     </div>
                     <div stlye={{marginBottom:"20px"}}>
                         This webpage is where I keep my life journey. Come to see how I messing up my life.
-                    </div>
-                    <div style={{color:"black"}}>
-                        D
                     </div>
                 </div>
             </Slide>

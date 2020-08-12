@@ -2,6 +2,7 @@ import React , {useState} from "react"
 import myImage from "../images/myimage2.jpg"
 import Intro from "./Intro"
 
+
 function Header() {
 
     
@@ -9,16 +10,6 @@ function Header() {
 
     const headerStyle = {
         color : "black" 
-    }
-    
-    
-    const introstyle = {
-        marginTop : "20px" ,
-        backgroundColor : "black" ,
-        marginLeft : "5%" , 
-        marginRight : "5%" ,
-        color : "white" ,
-        textAlign : "center"
     }
     
     const clickHandler = () => {
