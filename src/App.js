@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Contact from "./components/Contact"
 import Activity from "./components/Activity"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Header/>
       <Contact/>
       <Activity/>
+      <Footer/>
     </div>
   );
 }

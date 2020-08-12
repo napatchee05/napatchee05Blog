@@ -10,7 +10,7 @@ function Activity() {
         backgroundColor : "black" ,
         marginLeft : "5%" , 
         marginRight : "5%" ,
-        marginBottom : "1%" ,
+        marginBottom : "3%" ,
         color : "white" ,
         padding : "0.2%",
         paddingBottom : "10px"
@@ -21,7 +21,7 @@ function Activity() {
             <Fade>
                 <div style={introstyle}>
                     <div style={{paddingLeft : "5%" , fontSize : "5vw" , paddingTop : "5%" , paddingBottom : "5%", fontWeight : "bold"}}>
-                        My Activity (บทความยังไม่เสร็จ)
+                        My Activity (บทความยังไม่เสร็จง่ะ)
                     </div>
                     <div>
                         <div>
