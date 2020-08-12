@@ -1,6 +1,8 @@
 import React from "react"
+import facebookIcon from "../images/facebook.png"
+import githubIcon from "../images/github.png"
+import instagramIcon from "../images/instagram.png"
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
 const myStyle = {
     backgroundColor : "black" , 
@@ -20,7 +22,15 @@ function Navbar() {
                 napatchee05's webpage
             </div>
             <div>
-                
+                <span style={{marginRight : "12px"}}>
+                    <a href="https://www.facebook.com/napatchee05"><img src={facebookIcon} alt="facebook" width="30px" /></a>
+                </span>
+                <span style={{marginRight : "12px"}}>
+                    <a href="https://www.instagram.com/napatchee05/"><img src={instagramIcon} alt="instagram" width="30px" /></a>
+                </span>
+                <span style={{marginRight : "12px"}}>
+                    <a href="https://github.com/napatchee05"><img src={githubIcon} alt="github" width="30px" /></a>
+                </span>
             </div>
         </div>
     )
