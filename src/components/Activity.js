@@ -27,7 +27,7 @@ function Activity() {
                         <div>
                             <a href="underconstruction">
                                 <div style={{display:"flex",justifyContent:"center" , marginBottom:"3%"}}>
-                                    <img src={Activity1} alt="1" width="90%"/>
+                                    <img src={Activity1} alt="1" width="90vw" height="90%"/>
                                 </div>
                                 {/* <div style={{padding:"2%" , textAlign:"center" , fontWeight : "bold" , backgroundColor : "#404040"}} classNames="Hyperlink">
                                     Automate your Tinder via Python
