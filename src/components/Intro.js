@@ -20,9 +20,10 @@ function Intro() {
         <Fade opposite>
             <Slide top opposite>
                 <div style={introstyle}>
-                    <h1>Napat Cheetanom , Full time Sleeper</h1>
+                    <h1>Napat Cheetanom</h1>
+                    <h4>Life isn’t perfect but your page can be.</h4>
                     <div style={{marginBottom:"20px"}}>
-                        Greetings ! I'm Captain , I currently being sophomore year , computer engineering student @CHULALONGKORN UNIVERSITY <br/>
+                        Greetings!  I am sophomore year , computer engineering student. Get to know me more.<br/>
                     </div>
                     <div stlye={{marginBottom:"20px"}}>
                         This webpage is where I keep my life journey. Come to see how I messing up my life.

@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Contact from "./components/Contact"
+import Activity from "./components/Activity"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Contact/>
+      <Activity/>
     </div>
   );
 }
